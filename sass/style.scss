@@ -1,4 +1,4 @@
-// font-family: 'Great Vibes', cursive;
+
 $sans-serif: 'Lato', sans-serif;
 $italic: 'Gabriela', serif;
 
@@ -264,4 +264,149 @@ footer {
         }
     }
     
+}
+
+@media (max-width: 800px) {
+
+    .copyright {
+        margin-top: 30px;
+        position: static;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .portfolio {
+    
+        .row {
+            justify-content: center;
+            padding: 60px 5px 70px;
+            text-align: center;
+    
+        }
+    
+        img {
+            width: 300px;
+            max-width: 100%;
+    
+        }
+    }
+    
+    .card-portfolio {
+        background: white;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+
+    header {
+      
+        height: 700px;
+    
+        .container {
+            height: 60vh;
+        }
+    
+        nav {
+            padding: 10px 0;
+        }
+    
+        .row {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        ul {
+            padding: 0 0;
+            margin: 10px auto;
+    
+            li {
+                display: block;
+                padding: 5px;
+                margin: 5px;
+                color: white;
+    
+                a {
+                    color: white;
+                    font-size: 14px;
+                    
+                    &:hover {
+                        color: $color-main;
+                    }
+                }
+            }
+    
+        }
+    }
+    
+    .logo {
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-weight: 900;
+    }
+    
+    
+    .splash {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .header-welcome {
+         font-size: 24px;
+    }
+    
+    .header-nice {
+        font-size: 40px;
+    }
+    
+    .header-btn {
+
+         padding: 24px 24px;
+
+         &:hover {
+            background: white;
+            color: $color-main;
+         }
+    }
+
+    .services {
+        .row {
+           justify-content: space-around;
+           padding: 60px 10px 70px;
+           text-align: center;
+   
+           p {
+               color: $color-light;
+               font-size: 14px;
+           }
+        }
+   }
+
+}
+
+@media (max-width: 300px) {
+    .header-btn {
+        font-size:  18px;
+        padding: 12px 12px;
+
+        &:hover {
+           background: white;
+           color: $color-main;
+        }
+   }
+
+   .copyright {
+       font-size: 12px;
+   }
+
+   .social-icons {
+       .fab {
+           font-size: 16px;
+           width: 30px;
+           height: 30px;
+           line-height: 1.8rem;
+       }
+   }
 }

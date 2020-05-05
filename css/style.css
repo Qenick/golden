@@ -247,4 +247,116 @@ footer {
   width: 44px;
   border-radius: 100%;
 }
+
+@media (max-width: 800px) {
+  .copyright {
+    margin-top: 30px;
+    position: static;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio .row {
+    -ms-flex-pack: center;
+        justify-content: center;
+    padding: 60px 5px 70px;
+    text-align: center;
+  }
+  .portfolio img {
+    width: 300px;
+    max-width: 100%;
+  }
+  .card-portfolio {
+    background: white;
+    max-width: 300px;
+    margin: 10px auto;
+  }
+  header {
+    height: 700px;
+  }
+  header .container {
+    height: 60vh;
+  }
+  header nav {
+    padding: 10px 0;
+  }
+  header .row {
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  header ul {
+    padding: 0 0;
+    margin: 10px auto;
+  }
+  header ul li {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+  }
+  header ul li a {
+    color: white;
+    font-size: 14px;
+  }
+  header ul li a:hover {
+    color: #fed136;
+  }
+  .logo {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 900;
+  }
+  .splash {
+    margin: auto;
+    text-align: center;
+  }
+  .header-welcome {
+    font-size: 24px;
+  }
+  .header-nice {
+    font-size: 40px;
+  }
+  .header-btn {
+    padding: 24px 24px;
+  }
+  .header-btn:hover {
+    background: white;
+    color: #fed136;
+  }
+  .services .row {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 60px 10px 70px;
+    text-align: center;
+  }
+  .services .row p {
+    color: #909090;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  .header-btn {
+    font-size: 18px;
+    padding: 12px 12px;
+  }
+  .header-btn:hover {
+    background: white;
+    color: #fed136;
+  }
+  .copyright {
+    font-size: 12px;
+  }
+  .social-icons .fab {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    line-height: 1.8rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
