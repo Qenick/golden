@@ -1,5 +1,172 @@
 body {
-  background: red;
+  font-family: "Lato", sans-serif;
+  color: #222222;
+}
+
+header {
+  background: url("../images/header.jpg");
   color: white;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+header .container {
+  height: 80vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+header nav {
+  padding: 0.83em 0;
+}
+
+header .row {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+header ul {
+  padding: 0.83em 0;
+  margin: 0.83em 0;
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+header ul li a:hover {
+  color: #fed136;
+}
+
+.logo {
+  font-family: 'Great Vibes', cursive;
+  color: #fed136;
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: 900;
+}
+
+.splash {
+  margin: auto;
+  text-align: center;
+}
+
+.header-welcome {
+  font-size: 38px;
+  font-family: 'Gabriela', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.header-nice {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 90px;
+}
+
+.header-btn {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: #fed136;
+  padding: 24px 48px;
+  border-radius: 5px;
+  transition: .3s all;
+  max-width: 100%;
+}
+
+.header-btn:hover {
+  background: white;
+  color: #fed136;
+}
+
+section {
+  padding-top: 100px;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: 'Gabriela', serif;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  color: #909090;
+  margin: 0;
+  padding: 14px 0;
+}
+
+.services .row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 60px 120px 70px;
+  text-align: center;
+}
+
+.services .row p {
+  color: #909090;
+  font-size: 14px;
+}
+
+.col-md-3 {
+  padding: 0;
+}
+
+.card-service {
+  padding: 8px 0;
+}
+
+.card-service i {
+  border: 3px solid #fed136;
+  height: 64px;
+  width: 64px;
+  border-radius: 100%;
+  line-height: 3.5rem;
+  font-size: 30px;
+  color: #fed136;
+  margin-bottom: 20px;
+}
+
+.card-service h5 {
+  font-size: 17px;
+  margin: 0px;
+}
+
+.card-service p {
+  font-family: "Gabriela", serif;
+  font-weight: 100;
+}
+
+.portfolio {
+  background: #f7f7f7;
 }
 /*# sourceMappingURL=style.css.map */
