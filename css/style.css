@@ -254,6 +254,9 @@ footer {
     position: static;
     text-align: center;
   }
+  .card-service {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 600px) {
