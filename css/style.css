@@ -169,4 +169,37 @@ h3 {
 .portfolio {
   background: #f7f7f7;
 }
+
+.portfolio .row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 60px 120px 70px;
+  text-align: center;
+}
+
+.portfolio img {
+  width: 280px;
+  max-width: 100%;
+}
+
+.card-portfolio {
+  background: white;
+  margin: 20px 5px;
+}
+
+.card-portfolio h5 {
+  font-size: 16px;
+  margin: 26px auto 0;
+  font-weight: 900;
+  color: #222222;
+}
+
+.card-portfolio p {
+  font-family: "Gabriela", serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #909090;
+  margin: 0;
+  padding: 4px 0 30px;
+}
 /*# sourceMappingURL=style.css.map */

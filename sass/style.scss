@@ -181,4 +181,38 @@ h3 {
 
 .portfolio {
     background: $color-light-bg;
+
+    .row {
+        // margin-top: 60px;
+        justify-content: space-around;
+        padding: 60px 120px 70px;
+        text-align: center;
+
+    }
+
+    img {
+        width: 280px;
+        max-width: 100%;
+    }
+}
+
+.card-portfolio {
+    background: white;
+    margin: 20px 5px;
+
+    h5 {
+        font-size: 16px;
+        margin: 26px auto 0;
+        font-weight: 900;
+        color: $color-dark;
+    }
+
+    p {
+        font-family: $italic;
+        font-style: italic;
+        font-size: 14px;
+        color: $color-light;
+        margin: 0;
+        padding: 4px 0 30px;
+    }
 }
