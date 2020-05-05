@@ -185,6 +185,7 @@ h3 {
 .card-portfolio {
   background: white;
   margin: 20px 5px;
+  max-width: 280px;
 }
 
 .card-portfolio h5 {
@@ -201,5 +202,49 @@ h3 {
   color: #909090;
   margin: 0;
   padding: 4px 0 30px;
+}
+
+footer {
+  position: relative;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.copyright {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  color: #222222;
+  opacity: .75;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social-icons ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.social-icons ul li {
+  display: inline-block;
+  padding: 5px;
+  font-size: 0;
+}
+
+.social-icons ul li i {
+  color: white;
+  font-size: 24px;
+  line-height: 2.7rem;
+  background: #222222;
+  height: 44px;
+  width: 44px;
+  border-radius: 100%;
 }
 /*# sourceMappingURL=style.css.map */
