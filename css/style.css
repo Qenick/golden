@@ -2,7 +2,7 @@ body { font-family: "Lato", sans-serif; color: #222222; }
 
 header { background: url("../images/header.jpg"); color: white; margin: 0; background-repeat: no-repeat; background-size: cover; background-position: center; height: 700px; }
 
-header .container { height: 80vh; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
+header .container { height: 600px; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
 
 header nav { padding: 0.83em 0; }
 
